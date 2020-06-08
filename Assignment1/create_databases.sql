@@ -1,6 +1,7 @@
 -- *****************************************************
 -- This script creates all 3 databases (AP, EX, and OM) 
 -- for Murach's MySQL by Joel Murach 
+-- used for IT2351 by Orian Pax, Summer 2020
 -- *****************************************************
 
 -- ********************************************
@@ -903,15 +904,15 @@ INSERT INTO paid_invoices VALUES
 (108, 117, '111897', '2011-06-11', '16.62', '16.62', '0.00', 1, '2011-06-14', '2011-06-12');
 
 -- ********************************************
--- CREATE THE OM DATABASE
+-- CREATE THE OrderManagement DATABASE
 -- *******************************************
 
 -- create database
-DROP DATABASE IF EXISTS om;
-CREATE DATABASE om;
+DROP DATABASE IF EXISTS OrianPaxOrderManagement;
+CREATE DATABASE OrianPaxOrderManagement;
 
 -- select database
-USE om;
+USE OrianPaxOrderManagement;
 
 -- create tables
 CREATE TABLE customers
